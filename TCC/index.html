@@ -1,35 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./src/css/Style.css">
-    <title>MEN |  SIA </title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>MENSIA </title>
 </head>
-
 <body>
-    <nav>
+    <header>
         <p href="index.html" class="nav-logo">Mensia</p>
-        <ul>
-            <li><a href="duvidas.html">Dúvidas</a></li>
-            <li><a href="artigos.html">Artigos</a></li>
-            <li><a href="cartilhas.html">Cartilhas</a></li>
-       </ul>
-       <div>
-        <input type="text" placeholder="Buscar">
-        <button> 
-            <img src="" alt="buscar"/>
-        </button>
-        <button>
-            <img src="" alt="usuario"/>
-        </button>
+        <div class="menubar">
+            <button onclick="window.location.href = 'http://pt.stackoverflow.com'" class="menu">
+                <img src="./src/img/icons8-pessoa-64 (1).png" alt="Usuario" class="imgmenu">
+                Duvidas
+            </button>
+            <button onclick="window.location.href = 'http://pt.stackoverflow.com'" class="menu">
+                <img src="./src/img/icons8-pessoa-64 (1).png" alt="Usuario" class="imgmenu">
+                Artigos
+            </button>
+            <button onclick="window.location.href = 'http://pt.stackoverflow.com'" class="menu">
+                <img src="./src/img/icons8-pessoa-64 (1).png" alt="Usuario" class="imgmenu">
+                Cartilhas
+            </button>
+        </div>
+        <div class="menubusc" >
+            <input type="text" placeholder="Buscar">
+            <button> 
+                <img src="" alt="buscar"/>
+            </button>
+            <button>
+                <img src="" alt="usuario"/>
+            </button>
        </div>
-    
-
-
-    <script src="script.js"></script>
+       <div class="line"></div>
+    </header>
 </body>
 
 </html>
